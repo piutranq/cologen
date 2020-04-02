@@ -1,0 +1,25 @@
+/* color config example for rofi */
+*
+{
+    /* Monochrome */
+    grey0: #282828;
+    grey1: #3c3836;
+    grey2: #665c54;
+    grey3: #bdae93;
+    grey4: #ebdbb2;
+    grey5: #fbf1c7;
+
+    /* Chromatics */
+    red: #fb4934;
+    green: #b8bb26;
+    yellow: #fabd2f;
+    blue: #83a598;
+    magenta: #d3869b;
+    cyan: #8ec07c;
+
+    /* Special Purpose */
+    empty: rgba(0, 0, 0, 0);
+    bg: rgba(40, 40, 40, 1.00);
+    fg: #ebdbb2;
+    fgbold: bold underline #fbf1c7;
+}

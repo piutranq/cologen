@@ -1,0 +1,25 @@
+/* color config example for rofi */
+*
+{
+    /* Monochrome */
+    grey0: @[grey0:#%xR%xG%xB];
+    grey1: @[grey1:#%xR%xG%xB];
+    grey2: @[grey2:#%xR%xG%xB];
+    grey3: @[grey3:#%xR%xG%xB];
+    grey4: @[grey4:#%xR%xG%xB];
+    grey5: @[grey5:#%xR%xG%xB];
+
+    /* Chromatics */
+    red: @[red:#%xR%xG%xB];
+    green: @[green:#%xR%xG%xB];
+    yellow: @[yellow:#%xR%xG%xB];
+    blue: @[blue:#%xR%xG%xB];
+    magenta: @[magenta:#%xR%xG%xB];
+    cyan: @[cyan:#%xR%xG%xB];
+
+    /* Special Purpose */
+    empty: rgba(0, 0, 0, 0);
+    bg: @[grey0:rgba(%dR, %dG, %dB, %.A)];
+    fg: @[grey4:#%xR%xG%xB];
+    fgbold: bold underline @[grey5:#%xR%xG%xB];
+}
