@@ -3,6 +3,7 @@ name = "cologen"
 version = "0.1.0"
 authors = ["piutranq"]
 edition = "2018"
+repository = "https://github.com/piutranq/cologen"
 description = "The simple color scheme configuration generator, inspired by base16-builder"
 license = "MIT"
 

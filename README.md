@@ -4,9 +4,16 @@ The simple color scheme configuration generator,
 inspired by [base16-builder](https://github.com/base16-builder/base16-builder).
 
 ## Install
+
+- Install from sources
 ```sh
 git clone https://github.com/piutranq/cologen
 cargo install --path ./cologen
+```
+
+- Install from crates.io
+```sh
+cargo install cologen
 ```
 
 ## Usage
